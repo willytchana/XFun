@@ -1,10 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XFun.Pages.LoginEmail">
+             xmlns:helpers="clr-namespace:XFun.Resources.Fonts"
+             x:Class="XFun.Pages.LoginEmail"
+             Style="{x:StaticResource Content}"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-           
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="Fill">
+            <Entry x:Name="txtEmail"
+                  Keyboard="Email"
+                  Placeholder="Enter your email"/>
+            <Label Text="You will receive a code by email"
+                   FontSize="Small"
+                   FontAttributes="Italic"/>
+            <Button x:Name="btnNext"
+                    FontFamily="mdi"
+                    FontSize="Medium"
+                    ImageSource="{FontImage FontFamily=mdi, Glyph={x:Static helpers:IconFont.ChevronRight}}"
+                    ContentLayout="Right"
+                    Text="Next"
+                    Margin="0, 20, 0, 0"
+                    Clicked="btnNext_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

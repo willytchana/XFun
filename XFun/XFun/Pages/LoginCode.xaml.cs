@@ -10,16 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace XFun.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginEmail : ContentPage
+    public partial class LoginCode : ContentPage
     {
-        public LoginEmail()
+        public LoginCode()
         {
             InitializeComponent();
         }
 
         private async void btnNext_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginCode());
+            await Navigation.PushAsync(new LoginName());
         }
     }
 }

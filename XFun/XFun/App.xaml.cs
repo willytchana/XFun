@@ -1,16 +1,21 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFun.Pages;
 
 namespace XFun
 {
     public partial class App : Application
     {
+        public static bool IsAthenticate = false;
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            if (IsAthenticate)
+                MainPage = new NavigationPage(new MainPage());
+            else
+                MainPage = new NavigationPage(new LoginEmail());
         }
 
         protected override void OnStart()

@@ -3,6 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFun.App">
     <Application.Resources>
-
+        <Color x:Key="Primary">#0275d8</Color>
+        <Color x:Key="Secondary">Gray</Color>
+        <Color x:Key="Warning">#f0ad4e</Color>
+        <Color x:Key="Danger">#d9534f</Color>
+        <Color x:Key="Success">#5cb85c</Color>
+        <Color x:Key="Info">#5bc0de</Color>
+        <Color x:Key="TextColor">#292b2c</Color>
+        <Color x:Key="BackgroundColor">White</Color>
+        <Style x:Key="Content" TargetType="ContentPage" ApplyToDerivedTypes="False">
+            <Setter Property="BackgroundColor" Value="{x:StaticResource Info}"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+        </Style>
+        <Style TargetType="StackLayout">
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{x:StaticResource Primary}"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
     </Application.Resources>
 </Application>

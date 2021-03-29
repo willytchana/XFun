@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFun.iOS", "XFun\XFun.iOS\X
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFun", "XFun\XFun\XFun.csproj", "{F3055FAE-0CAA-4F87-AE73-07BED9283E20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFun.Api", "XFun.Api\XFun.Api.csproj", "{39DE2060-9164-427E-A3A8-44386B0F1660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{F3055FAE-0CAA-4F87-AE73-07BED9283E20}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{F3055FAE-0CAA-4F87-AE73-07BED9283E20}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{F3055FAE-0CAA-4F87-AE73-07BED9283E20}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Release|iPhone.Build.0 = Release|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{39DE2060-9164-427E-A3A8-44386B0F1660}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

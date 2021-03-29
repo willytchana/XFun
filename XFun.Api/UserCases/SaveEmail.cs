@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using XFun.Api.UserCases.Entities;
 
 namespace XFun.Api.UserCases
 {
@@ -16,6 +14,7 @@ namespace XFun.Api.UserCases
 
         public int Execute()
         {
+            var u = new User();
             throw new NotImplementedException();
         }
     }

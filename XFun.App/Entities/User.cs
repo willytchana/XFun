@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace XFun.Api.UserCases.Entities
+namespace XFun.App.Entities
 {
-    internal class User
+    public class User
     {
         public string Email { get; set; }
         public int Code { get; set; }
